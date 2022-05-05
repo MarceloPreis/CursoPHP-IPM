@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body{
+            border: 1.5px solid black;
+            font-size: small;
+            font-family: Arial, Helvetica, sans-serif;
+            padding-top: 0px;
+        }
+        input, textarea {
+            border-color: blue;
+            border-width: 0.5px;
+        }
+
+        textarea {
+            width: 100%;
+        }
+        
+        h1 {
+            font-size: 20px;
+            text-align: center;
+        }
+        .red {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Request for white paper</h1>
+    <p>
+        Please fill out the form below bal balbal balbalbal ba <br>
+        <a href="mailto: marcelo.preis@gmail.com"> marcelo.preis@gmail.com</a><br>
+        <span class="red">*</span> - Required Field
+    </p>
+    <hr style="border-color: blue; height: 0.5px;">
+    <form action="">
+        <table>
+            <tr>
+                <td><span class="red">*</span>First Name:</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td><span class="red">*</span>Last Name:</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td >Company Name:</td>
+                <td colspan="2"><textarea name="" id="" cols="30" rows="1"></textarea></td>
+            </tr>
+            <tr>
+                <td >Company/Personal Website:</td>
+                <td colspan="2"><textarea name="" id="" cols="30" rows="1"></textarea></td>
+            </tr>
+            <tr>
+                <td>Email:</td>
+                <td><input type="text"></td>
+                <td>Ext: <input type="text"></td>
+            </tr>
+            <tr>
+                <td>State/Province:</td>
+                <td>
+                    <select name="state" id="state">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><span class="red">*</span> Country:</td>
+                <td>
+                    <select name="state" id="state">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">Comments <br>
+                    <textarea name="coments" id="" cols="30" rows="3"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><button>Request white Paper</button></td>
+            </tr>
+        </table>
+    </form>
+    
+</body>
+</html>

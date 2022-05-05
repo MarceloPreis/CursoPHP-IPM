@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table {
+            border: 2px solid black;
+            border-collapse: collapse;
+            
+        }
+
+        td {
+            border: 2px solid black;
+            border-collapse: collapse; 
+            width: 300px; 
+            height: 30px;      
+            padding-left: 20px;
+        }
+
+        th { 
+            width: 200px;
+            height: 40px;
+            font-size: larger;
+        }
+
+        .label {
+            width: 120px;
+            text-align: end;
+            font-weight: bold;
+            padding-right: 5px;
+        }
+
+    </style>
+</head>
+<body>
+    <form action="">
+        <table >
+            <thead>
+                <th colspan="2">Formulário</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="label">Nome: </td>
+                    <td><input type="text">*</td>
+                </tr>    
+                <tr>
+                    <td class="label">Email: </td>
+                    <td><input type="email">*</td>
+                </tr>    
+                <tr>
+                    <td class="label">Qtd itens: </td>
+                    <td><input type="number" style="width: 60px;"> (Intervalo de 1 a 10)</td>
+                </tr>    
+                <tr>
+                    <td class="label">Data do Pedido: </td>
+                    <td><input type="date">*</td>
+                </tr>    
+                <tr>
+                    <td class="label">Time: </td>
+                    <td><input type="time">*</td>
+                </tr>    
+                <tr>
+                    <td class="label">Cor favorita: </td>
+                    <td><input type="color"></td>
+                </tr>    
+                <tr>
+                    <td  class="label"></td>
+                    <td>* Obrigatórios</td>
+                </tr>    
+                <tr>
+                    <td class="label"></td>
+                    <td><button>Enviar Dados</button></td>
+                </tr>    
+            </tbody>
+        </table>
+    </form>
+</body>
+</html>
